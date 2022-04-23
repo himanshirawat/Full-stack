@@ -1,0 +1,30 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn git and node",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "glyphicons-only-bootstrap": "^1.0.1",
+    "jquery": "^3.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshirawat/Full-stack.git"
+  },
+  "keywords": [
+    "Full",
+    "Stack"
+  ],
+  "author": "Himanshi Rwat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshirawat/Full-stack/issues"
+  },
+  "homepage": "https://github.com/himanshirawat/Full-stack#readme"
+}
