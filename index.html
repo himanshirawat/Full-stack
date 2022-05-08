@@ -32,48 +32,47 @@
                     <li class="nav-item"><a class="nav-link" href="/contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
 
-
                 <span class="navbar-text ">
-                    <a data-bs-toggle="modal me-2" data-bs-target="#loginModal">
-                        <span class="fa fa-sign-in"> Login</span>
+                    <a data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <span class="fa fa-sign-in"></span> Login
                     </a>
-                </span>
+                </span>  
             </div>
             
         </div>
     </nav>
  
     <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg" role="contentinfo">
+        <div class="modal-dialog modal-lg" role="content">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Login</h4>
-                    <button type="button" class="close" data-bs-dismiss="modal">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                         &times;
                     </button>  
                 </div>
-                <div class="modal-body row">
-                    <div class="col-12 col-md-9">
-                        <form>
-                            <div class="form-group row">
-                                <label for="emailid" class="col-md-6 col-form-label">Email</label>
-                                <div class="col-md-10">
-                                    <input type="email" class="form-control" id="emailid" name="emailid" placeholder= "Email">
+                <div class="modal-body">
+                    <form> 
+                        <div class="form-group row">
+                            <div class="col-md-4">
+                                <input type="email" class="form-control" id="emailid" name="emailid" placeholder= "Enter email">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="password" class="form-control" id="password" name="password" 
+                                   placeholder = "Password">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                    <label class="form-check-label" for="approve">Remember me </label>
                                 </div>
-                            </div><br>
-                            <div class="form-group row">
-                                <label for="password" class="col-md-6 col-form-label">Password</label>
-                                <div class="col-md-10">
-                                    <input type="password" class="form-control" id="password" name="password" 
-                                       placeholder = "password">
-                                </div>
-                            </div><br>
-                        </form>
-                    </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary">Confirm</button>
+                    <button type="button" class="btn btn-primary">Sign in</button>
                 </div>
             </div>
         </div>
@@ -99,13 +98,13 @@
                                     <div class="modal-content text-black">
                                         <div class="modal-header">
                                             <h4 class="modal-title">Reserve a Table </h4>
-                                            <button type="button" class="close" data-bs-dismiss="modal">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                                                 &times;
                                             </button>  
                                         </div>
                                         <div class="modal-body ">
                                             <div class="row">
-                                                <div class="col-12 col-md-2">Number of guests</div>
+                                                <div class="col-12 col-md-2 mb-3">Number of Guests</div>
                                                 <div class="col-8 col-md-10">
                                                     <form>
                                                         <div class="form-group row">
@@ -154,7 +153,7 @@
                                                         </div>
                                                         
                                                     </form>
-                                                </div><br><br>
+                                                </div>
                                         
                                                 <div class="col-12 col-md-2 ">Section</div>
                                                 <div class="col-8 col-md-10">
@@ -443,29 +442,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        // $(document).ready(function(){
-        //     $('[data-bs-toggle="tooltip"]').tooltip();
-        // });  for tooltip
-
-        $(document).ready(function(){
-            $('#mycarousel').carousel({interval: 2000});
-            $('#carouselButton').click(function(){
-                if ( $('#carouselButton').children('span').hasClass('fa-pause')){
-                    $('#mycarousel').carousel('pause');
-                    $('#carouselButton').children('span').removeClass('fa-pause');
-                    $('#carouselButton').children('span').addClass('fa-play')
-                }
-                else if ( $('#carouselButton').children('span').hasClass('fa-play')){
-                    $('#mycarousel').carousel('cycle');
-                    $('#carouselButton').children('span').removeClass('fa-play');
-                    $('#carouselButton').children('span').addClass('fa-pause')
-                }
-                    
-            });
-        });
-
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
