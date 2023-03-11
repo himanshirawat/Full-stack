@@ -19,11 +19,13 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
+  background: black;
+  /* #9575CD; */
   color: floralwhite;
 }
 .jumbotron .modal-header {
-  background: #512DA8;
+  background: yellow ;
+  /* #512DA8; */
 }
 .jumbotron .modal-body {
   background: #D1C4E9;
@@ -45,7 +47,8 @@ body {
 }
 
 .navbar-dark {
-  background-color: #512DA8;
+   background-color: yellow;
+  /* background-color: #512DA8; */
 }
 
 .tab-content {
