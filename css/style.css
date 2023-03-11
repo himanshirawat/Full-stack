@@ -22,15 +22,12 @@
   background: #9575CD;
   color: floralwhite;
 }
-
 .jumbotron .modal-header {
   background: #512DA8;
 }
-
 .jumbotron .modal-body {
   background: #D1C4E9;
 }
-
 .jumbotron .modal-footer {
   background: #D1C4E9;
   border: 0px;
@@ -61,11 +58,9 @@ body {
 .carousel {
   background: #512DA8;
 }
-
 .carousel .carousel-item {
   height: 300px;
 }
-
 .carousel .carousel-item img {
   position: absolute;
   top: 0;
@@ -83,14 +78,11 @@ body {
   background: #512DA8;
   border: 0px;
 }
-
 #loginModal .modal-body {
   background: #D1C4E9;
   border: 0px;
 }
-
 #loginModal .modal-footer {
   background: #D1C4E9;
   border: 0px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
